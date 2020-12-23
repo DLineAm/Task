@@ -31,7 +31,7 @@ namespace WpfTask.Windows
         public ReaderCreate(Client client)
         {
             InitializeComponent();
-            FirstNameTB.Text = client.Name;
+            FirstNameTB.Text = client.FirstName;
             TitleLb.Content = "Изменение данных";
             AddBtn.Content = "Изменить";
         }

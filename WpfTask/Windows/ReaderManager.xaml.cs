@@ -46,7 +46,7 @@ namespace WpfTask.Windows
             {
                 using (ClientContext db = new ClientContext())
                 {
-                    Client cl = new Client { Name = rcw.FirstNameTB.Text, Id = 1 };
+                    Client cl = new Client { FirstName = rcw.FirstNameTB.Text, Id = 1 };
                     db.Client.Add(cl);
                     db.SaveChanges();                    
                     ReaderDG.ItemsSource = db.Client.ToList();
@@ -71,11 +71,14 @@ namespace WpfTask.Windows
             {
                 var selectedReader = db.Client.FirstOrDefault(p => p.Id == selectedId);
 
-                var readerCreateWindow = new ReaderCreate(selectedReader) { };              
+                var readerCreateWindow = new ReaderCreate(selectedReader) { };
+                var readerAccWindow = new ReaderAccounting(selectedReader);
 
-                if (readerCreateWindow.ShowDialog() == true)
+                if (readerAccWindow.ShowDialog() == true)
                 {
-                    selectedReader.Name = readerCreateWindow.FirstNameTB.Text;
+                    selectedReader.FirstName = readerAccWindow.FirstNameTB.Text;
+                    selectedReader.MiddleName = readerAccWindow.MiddleNameTB.Text;
+                    selectedReader.LastName = readerAccWindow.LastNameTB.Text;
                     db.SaveChanges();
                     ReaderDG.ItemsSource = db.Client.ToList();
                 }
