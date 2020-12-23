@@ -135,17 +135,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Migrations\202012231218421_InitialCreate.cs" />
-    <Compile Include="Migrations\202012231218421_InitialCreate.designer.cs">
-      <DependentUpon>202012231218421_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202012231442406_1.cs" />
-    <Compile Include="Migrations\202012231442406_1.designer.cs">
-      <DependentUpon>202012231442406_1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202012231444194_2.cs" />
-    <Compile Include="Migrations\202012231444194_2.designer.cs">
-      <DependentUpon>202012231444194_2.cs</DependentUpon>
+    <Compile Include="Migrations\202012231920362_1.cs" />
+    <Compile Include="Migrations\202012231920362_1.designer.cs">
+      <DependentUpon>202012231920362_1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Windows\BookCreate.xaml.cs">
@@ -153,6 +145,12 @@
     </Compile>
     <Compile Include="Windows\BookManager.xaml.cs">
       <DependentUpon>BookManager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\BookTake.xaml.cs">
+      <DependentUpon>BookTake.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ReaderAccounting.xaml.cs">
+      <DependentUpon>ReaderAccounting.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\Tables\Book.cs" />
     <Compile Include="Windows\Tables\BookTakings.cs" />
@@ -171,6 +169,7 @@
     <Compile Include="Windows\ReaderManager.xaml.cs">
       <DependentUpon>ReaderManager.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\Tables\Database.cs" />
     <Page Include="Windows\BookCreate.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -179,7 +178,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Windows\BookTake.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\MainMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ReaderAccounting.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -206,14 +213,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <EmbeddedResource Include="Migrations\202012231218421_InitialCreate.resx">
-      <DependentUpon>202012231218421_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202012231442406_1.resx">
-      <DependentUpon>202012231442406_1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202012231444194_2.resx">
-      <DependentUpon>202012231444194_2.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202012231920362_1.resx">
+      <DependentUpon>202012231920362_1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

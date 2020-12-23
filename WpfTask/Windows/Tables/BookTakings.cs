@@ -9,7 +9,8 @@ namespace WpfTask.Windows.Tables
     public class BookTakings
     {
         public int Id { get; set; }
-        public int TakingsAmount { get; set; }
+        public DateTime? TakeDate { get; set; }
+        public DateTime? GiveDate { get; set; }
 
         public int ClientId { get; set; }
         public Client Client { get; set; }

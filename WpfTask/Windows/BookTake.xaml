@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfTask.Windows.BookTake"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTask.Windows"
+        mc:Ignorable="d"
+        Title="BookTake" Height="427.917" Width="442.895">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" MinHeight="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="50" MinHeight="50"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Rectangle Fill="#FF6347" VerticalAlignment="Top" Height="50"/>
+        <Rectangle Fill="Black" VerticalAlignment="Top" Height="1" Margin="0,50,0,0"/>
+        <Label Name="TitleLb" Content="Выдача книги" VerticalAlignment="Top" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" FontSize="18" Foreground="#F5FFFA"/>
+
+        <Label Grid.Row="1" Content="Дата выдачи" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,0,0" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Height="30" FontSize="18" Width="129"/>
+        <DatePicker Name="TakeDP" Grid.Row="1" VerticalAlignment="Top" Margin="150,40,85,0" Width="200" Height="30" FontSize="18"/>
+        <Label Grid.Row="1" Content="Дата возврата" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,40,0,0" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Height="30" FontSize="18" Width="129"/>
+        <DatePicker Name="GiveDP" Grid.Row="1" VerticalAlignment="Top" Margin="150,5,85,0" Width="200" Height="30" FontSize="18"/>
+        <DataGrid Name="TakeBookDG" Grid.Row="1" VerticalAlignment="Center" Height="200" Margin="0,65,0,0" ColumnWidth="*"/>
+
+        <Button Name="ApplyBtn" Grid.Row="2" Content="Принять" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,5" Height="30" Click="ApplyBtn_Click"/>
+    </Grid>
+</Window>

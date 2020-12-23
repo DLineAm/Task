@@ -24,24 +24,23 @@ namespace WpfTask.Windows
         public BookManager(MainMenu window)
         {
             InitializeComponent();
-            mainMenu = window;
+            mainMenu = window;          
             LoadData();
         }
 
         private void LoadData()
         {
-            using (ClientContext db = new ClientContext())
+            var books = Database.db.Book.AsQueryable();
             {
-                var books = db.Book.AsQueryable();
+                BookDG.ItemsSource = books.Select(s => new Book
                 {
-                    BookDG.ItemsSource = books.Select(s => new
-                    {
-                        Id = s.Id,
-                        Name = s.Name,
-                        Author = s.Author
-                    }).ToList();
-                }
+                    Id = s.Id,
+                    Name = s.Name,
+                    Author = s.Author
+                });
             }
+
+
         }
 
         private void ChangeBtn_Click(object sender, RoutedEventArgs e)
