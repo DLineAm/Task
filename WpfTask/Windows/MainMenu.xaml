@@ -1,14 +1,18 @@
-﻿<Window x:Class="WpfTask.Windows.MainMenu"
+﻿<Window x:Name="___Без_имени_" x:Class="WpfTask.Windows.MainMenu"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfTask.Windows"
         mc:Ignorable="d"
-        Title="MainMenu" Height="450" Width="800">
+        Title="Главное меню" Height="232.831" Width="495.128" ResizeMode="NoResize">
     <Grid>
-        <Button Name ="Books" Content="Книги" HorizontalAlignment="Left" Margin="139,177,0,0" VerticalAlignment="Top" Width="146" Height="50" Click="Books_Click"/>
-        <Button Name ="Readers" Content="Читатели" HorizontalAlignment="Left" Margin="525,177,0,0" VerticalAlignment="Top" Width="146" Height="50" Click="Readers_Click"/>
+        <Canvas Background="#FF6347" VerticalAlignment="Top" HorizontalAlignment="Stretch" Height="50">
+            <Label Content="Учёт библиотеки" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" Width="489" FontSize="18" Foreground="#F5FFFA" Canvas.ZIndex ="2"/>
+            <Rectangle Fill="Black" VerticalAlignment="Top" Height="1" Width="489" Canvas.Top="50"/>
+        </Canvas>
+        <Button Name ="Books" Content="Книги" HorizontalAlignment="Left" Margin="47,103,0,0" VerticalAlignment="Top" Width="146" Height="50" Click="Books_Click"/>
+        <Button Name ="Readers" Content="Читатели" HorizontalAlignment="Left" Margin="285,103,0,0" VerticalAlignment="Top" Width="146" Height="50" Click="Readers_Click"/>
 
     </Grid>
 </Window>

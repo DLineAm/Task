@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using WpfTask.Windows.Tables;
 
 namespace WpfTask.Windows
 {
@@ -22,6 +23,15 @@ namespace WpfTask.Windows
         public BookCreate()
         {
             InitializeComponent();
+        }
+
+        public BookCreate(Book book)
+        {
+            InitializeComponent();
+            NameTB.Text = book.Name;
+            AuthorTB.Text = book.Author;
+            TitleLb.Content = "Изменение данных";
+            AddBtn.Content = "Изменить";
         }
 
         private void AddBtn_Click(object sender, RoutedEventArgs e)

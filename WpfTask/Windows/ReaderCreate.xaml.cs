@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using WpfTask.Windows;
-using static WpfTask.Windows.ReaderManager;
+using WpfTask.Windows.Tables;
 
 namespace WpfTask.Windows
 {
@@ -28,6 +28,14 @@ namespace WpfTask.Windows
             InitializeComponent();
         }
 
+        public ReaderCreate(Client client)
+        {
+            InitializeComponent();
+            FirstNameTB.Text = client.Name;
+            TitleLb.Content = "Изменение данных";
+            AddBtn.Content = "Изменить";
+        }
+
         public ReaderCreate(ReaderManager readerManager)
         {
             InitializeComponent();
@@ -41,6 +49,5 @@ namespace WpfTask.Windows
             else
                 MessageBox.Show("Поля должны быть заполнены!", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
         }
-        //public string Name { get { return FirstNameTB.Text;} }
     }
 }

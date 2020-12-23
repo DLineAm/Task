@@ -20,41 +20,93 @@ namespace WpfTask.Windows
     /// </summary>
     public partial class BookManager : Window
     {
-        public BookManager()
+        private MainMenu mainMenu;
+        public BookManager(MainMenu window)
         {
             InitializeComponent();
+            mainMenu = window;
+            LoadData();
+        }
+
+        private void LoadData()
+        {
             using (ClientContext db = new ClientContext())
             {
-                //db.Book.Add(new Book { Id = 1, Name = "Test", Author = "Test" });
-                //db.SaveChanges();
-                var books = db.Book.ToList();
-                BookDG.ItemsSource = books;
+                var books = db.Book.AsQueryable();
+                {
+                    BookDG.ItemsSource = books.Select(s => new
+                    {
+                        Id = s.Id,
+                        Name = s.Name,
+                        Author = s.Author
+                    }).ToList();
+                }
             }
         }
 
         private void ChangeBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            Book selectedItem;
+            try
+            {
+                selectedItem = (Book)BookDG.SelectedItem;
+            }
+            catch { return; }
+            if (selectedItem == null)
+                return;
+            var selectedID = selectedItem.Id;
+            using (ClientContext db = new ClientContext())
+            {
+                var selectedBook = db.Book.FirstOrDefault(p => p.Id == selectedID);
+                var bookCreateWindow = new BookCreate(selectedBook);
+                if (bookCreateWindow.ShowDialog() == true)
+                {
+                    selectedBook.Name = bookCreateWindow.NameTB.Text;
+                    selectedBook.Author = bookCreateWindow.AuthorTB.Text;
+                    db.SaveChanges();
+                    BookDG.ItemsSource = db.Book.ToList();
+                }
+            }
         }
 
         private void CreateBtn_Click(object sender, RoutedEventArgs e)
         {
-            var bcf = new BookCreate();
-            bool? result = bcf.ShowDialog();
-            if (result == true)
+            var bookCreateWindow = new BookCreate();
+            if (bookCreateWindow.ShowDialog() == true)
             {
                 using (ClientContext db = new ClientContext())
                 {
-                    Book b = new Book { Id = 1, Name = bcf.NameTB.Text, Author = bcf.AuthorTB.Text };
+                    Book b = new Book { Id = 1, Name = bookCreateWindow.NameTB.Text, Author = bookCreateWindow.AuthorTB.Text };
                     db.Book.Add(b);
                     db.SaveChanges();
+                    BookDG.ItemsSource = db.Book.ToList();
+                    BookDG.ScrollIntoView(b);
                 }
             }
         }
 
         private void OnBackButtonClick(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Plivet","Zdravstvyute");
+            this.Close();
+            mainMenu.Show();
+        }
+
+        private void RemoveBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Book selectedItem;
+            try
+            {
+                selectedItem = (Book)BookDG.SelectedItem;
+            }
+            catch { return; }
+
+            using (ClientContext db = new ClientContext())
+            {
+                var selectedBook = db.Book.FirstOrDefault(p => p.Id == selectedItem.Id);
+                db.Book.Remove(selectedBook);
+                db.SaveChanges();
+                BookDG.ItemsSource = db.Book.ToList();
+            }
         }
     }
 }

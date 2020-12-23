@@ -7,10 +7,12 @@
         mc:Ignorable="d"
         Title="Добавление" Height="253" Width="342">
     <Grid>
+        <Canvas Background="#FF6347" VerticalAlignment="Top" HorizontalAlignment="Stretch" Height="50">
+            <Label Name="TitleLb" Content="Добавление читателя" VerticalAlignment="Top" HorizontalContentAlignment="Center" Height="50" Width="334" VerticalContentAlignment="Center" FontSize="22" Canvas.ZIndex="1"/>
+            <Rectangle Fill="Black" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="0,50,0,0" Height="1" Canvas.ZIndex="2"/>
+        </Canvas>
         <TextBox Name ="FirstNameTB" HorizontalAlignment="Left" Height="30" Margin="74,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="243" FontSize="18"/>
         <Label Content="Имя" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" Height="30" FontSize="18" Width="59"/>
         <Button Name ="AddBtn" Content="Добавить" HorizontalAlignment="Left" Margin="105,172,0,0" VerticalAlignment="Top" Width="137" Height="40" Click="AddBtn_Click" HorizontalContentAlignment="Center"/>
-        <Label Name="TitleLb" Content="Добавление читателя" VerticalAlignment="Top" HorizontalContentAlignment="Center" Height="57" VerticalContentAlignment="Center" FontSize="22"/>
-
     </Grid>
 </Window>

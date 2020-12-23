@@ -28,12 +28,13 @@ namespace WpfTask.Windows
         {
             var rmf = new ReaderManager(this) { Owner = this };
             this.Hide();
-            rmf.Show();
+            rmf.ShowDialog();
+
         }
 
         private void Books_Click(object sender, RoutedEventArgs e)
         {
-            var bmf = new BookManager();
+            var bmf = new BookManager(this) { Owner = this };
             this.Hide();
             bmf.Show();
         }
