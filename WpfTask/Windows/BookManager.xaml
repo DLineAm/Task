@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfTask.Windows"
         x:Class="WpfTask.Windows.BookManager"
         mc:Ignorable="d"
-        Title="BookManager" Height="450" Width="800" MinHeight="150" MinWidth="400" MaxWidth="800" MaxHeight="1055">
+        Title="BookManager" Height="450" Width="800" MinHeight="150" MinWidth="400" MaxWidth="800" MaxHeight="1055" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50" MinHeight="50"></RowDefinition>
@@ -16,13 +16,21 @@
         <Rectangle Grid.Row="0" Fill="#FF6347"/>
         <Rectangle Grid.Row="0" Fill="Black" VerticalAlignment="Bottom" Height="1"/>
         <Label Grid.Row="0" Content="Учет книг" VerticalAlignment="Center" HorizontalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18" Foreground="#F5FFFA"/>
-        <DataGrid Grid.Row="1" Name ="BookDG" ColumnWidth="*"/>
+        <Button Grid.Row="0" Name="BackBtn" Content="Назад" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Width="100" Height="30" Click="OnBackButtonClick"/>
+
+        <DataGrid Grid.Row="1" Name ="BookDG" ColumnWidth="*" AutoGenerateColumns="False" ItemsSource="{Binding a}" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" x:Name="Id" Binding="{Binding Path = Id}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Имя" x:Name="Name" Binding="{Binding Path = Name}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Автор" x:Name="Author" Binding="{Binding Path = Author}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        
         <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="10">
             <Button  Name ="CreateBtn" Content="Добавить" HorizontalAlignment="Left"  Width="120" Height="31" Click="CreateBtn_Click"/>
-            <Button Name ="ChangeBtn" Content="Изменить" HorizontalAlignment="Left"  Width="120" Height="31" Click="ChangeBtn_Click"/>
-            <Button Name ="RemoveBtn" Content="Удалить" HorizontalAlignment="Left"  Width="120" Height="31" Click="RemoveBtn_Click"/>
+            <Button Name ="ChangeBtn" Content="Изменить" HorizontalAlignment="Left"  Width="120" Height="31" Margin="10,0,0,0" Click="ChangeBtn_Click"/>
+            <Button Name ="RemoveBtn" Content="Удалить" HorizontalAlignment="Left"  Width="120" Height="31" Margin="10,0,0,0" Click="RemoveBtn_Click"/>
         </StackPanel>
-        <Button Grid.Row="0" Name="BackBtn" Content="Назад" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Width="100" Height="30" Click="OnBackButtonClick"/>
 
     </Grid>
 </Window>

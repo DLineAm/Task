@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfTask.Windows.BookDelete"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTask.Windows"
+        mc:Ignorable="d"
+        Title="BookDelete" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" MinHeight="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="60" MinHeight="60"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#FF6347" VerticalAlignment="Top" Height="50"/>
+        <Rectangle Fill="Black" VerticalAlignment="Top" Height="1" Margin="0,50,0,0"/>
+        <Label Name="TitleLb" Content="Удаление книги из списка взятых" VerticalAlignment="Top" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" FontSize="18" Foreground="#F5FFFA"/>
+        <Button Grid.Row="0" Name="BackBtn" Content="Назад" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10" Height="30" Click="BackBtn_Click"/>
+        <DataGrid Grid.Row="1" Name="BooksDG" AutoGenerateColumns="False" ColumnWidth="*" ItemsSource="{Binding a}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Название" Binding="{Binding Path=Book.Name}"/>
+                <DataGridTextColumn Header="Дата взятия" Binding="{Binding Path=TakeDate}" Width="0.5*"/>
+                <DataGridTextColumn Header="Дата возврата" Binding="{Binding Path=GiveDate}" Width="0.5*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Grid.Row="2" Name="ApplyBtn" Content="Удалить" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10" Height="30" Click="ApplyBtn_Click"/>
+    </Grid>
+</Window>

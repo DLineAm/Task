@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,33 +25,29 @@ namespace WpfTask.Windows
         public BookManager(MainMenu window)
         {
             InitializeComponent();
-            mainMenu = window;          
+            mainMenu = window;
             LoadData();
         }
 
         private void LoadData()
         {
-            var books = Database.db.Book.AsQueryable();
+            using (ClientContext db = new ClientContext())
             {
-                BookDG.ItemsSource = books.Select(s => new Book
-                {
-                    Id = s.Id,
-                    Name = s.Name,
-                    Author = s.Author
-                });
+                BookDG.ItemsSource = db.Book.ToList();
             }
-
-
         }
 
         private void ChangeBtn_Click(object sender, RoutedEventArgs e)
         {
-            Book selectedItem;
+            Book selectedItem = null;
             try
             {
                 selectedItem = (Book)BookDG.SelectedItem;
             }
-            catch { return; }
+            catch {
+
+                return;
+            }
             if (selectedItem == null)
                 return;
             var selectedID = selectedItem.Id;
@@ -75,7 +72,7 @@ namespace WpfTask.Windows
             {
                 using (ClientContext db = new ClientContext())
                 {
-                    Book b = new Book { Id = 1, Name = bookCreateWindow.NameTB.Text, Author = bookCreateWindow.AuthorTB.Text };
+                    Book b = new Book { Id = 1, Name = bookCreateWindow.NameTB.Text, Author = bookCreateWindow.AuthorTB.Text, Takings = null };
                     db.Book.Add(b);
                     db.SaveChanges();
                     BookDG.ItemsSource = db.Book.ToList();
@@ -86,7 +83,7 @@ namespace WpfTask.Windows
 
         private void OnBackButtonClick(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            this.DialogResult = true;
             mainMenu.Show();
         }
 

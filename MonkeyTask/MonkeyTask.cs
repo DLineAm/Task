@@ -11,7 +11,7 @@ public class MonkeyTask{
 	public static void Main(String[] args){
 		int n = 0;//Хранит кол-во обезьян в зоопарке 
 		try{
-			n = Convert.ToInt32(Console.ReadLine());//Ввод данных о количестве обезьян				
+			n = Convert.ToInt32(Console.ReadLine());//Ввод данных о количестве обезьян	
 		}catch{
 			Console.Write("Введите количество обезьян должно быть целочисленным.");
 			goto _End;
@@ -30,13 +30,12 @@ public class MonkeyTask{
 		}
 		for(int i=0;i<n;i++){
 			for(int j=0;j<n;j++){
-				if(i==j)continue;
-				if(MON[i]==BAN[j]&&MON[j]==BAN[i]) goto _Yes;//Проверка, есть ли обезьяны, которые попали друг в друга
+				if(MON[i]==BAN[j]&&MON[j]==BAN[i]) goto _Yes;//Проверка, есть ли две обезьяны, которые попали друг в друга
 			}	
 		}
-		Console.WriteLine("NO");
+		Console.WriteLine("NO");		
 		goto _End;
 	   _Yes:Console.WriteLine("YES");
-           _End:Console.ReadKey();
+	   _End:Console.ReadKey();
 	}
 }

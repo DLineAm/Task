@@ -35,7 +35,15 @@ namespace WpfTask.Windows
             FirstNameTB.Text = selectedReader.FirstName;
             MiddleNameTB.Text = selectedReader.LastName;
             LastNameTB.Text = selectedReader.LastName;
+            LoadTextBox();
         }
+
+        void LoadTextBox() {
+            var clientBooks = Database.db.BookTakings.Where(w => w.ClientId == selectedReader.Id).ToList();
+            var bookNames = new List<String>();
+            foreach (var o in clientBooks) bookNames.Add(Database.db.Book.Find(o.BookId).Name);                
+            BooksTB.Text = String.Join(", ",bookNames);
+        } 
 
         private void ApplyBtn_Click(object sender, RoutedEventArgs e)
         {
@@ -52,7 +60,16 @@ namespace WpfTask.Windows
             var bookTakeWindow = new BookTake(selectedReader);
             if (bookTakeWindow.ShowDialog() == true)
             {
+                LoadTextBox();
+            }
+        }
 
+        private void DeleteBookBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var deletebookWindow = new BookDelete(selectedReader);
+            if (deletebookWindow.ShowDialog() == true)
+            {
+                LoadTextBox();
             }
         }
     }

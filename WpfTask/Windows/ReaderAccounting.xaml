@@ -13,15 +13,16 @@
         <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" Margin="10">
             <Button Name="ApplyBtn" Content="Принять" Height="30" Click="ApplyBtn_Click"/>
             <Button Name="AddBookBtn" Content="Выдать книгу"  Margin="10,0,0,0" Click="AddBookBtn_Click"/>
+            <Button Name="DeleBookBtn" Content="Изъять книгу"  Margin="10,0,0,0" Click="DeleteBookBtn_Click"/>
         </StackPanel>
 
         <TextBox Name ="FirstNameTB" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="114,121,42,141" Height="30" TextWrapping="Wrap" Width="243" FontSize="18"/>
-        <Label Content="Имя"  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,121,0,141" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Height="30" FontSize="18" Width="89"/>
+        <Label Content="Имя"  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,150,0,169" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Height="30" FontSize="18" Width="104"/>
         <TextBox Name ="LastNameTB" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="78,81,6,181" Height="30" TextWrapping="Wrap" Width="243" FontSize="18"/>
-        <Label Content="Фамилия"  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,81,0,181" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Height="30" FontSize="18" Width="89"/>
+        <Label Content="Фамилия"  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,110,0,209" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Height="30" FontSize="18" Width="104"/>
         <TextBox Name ="MiddleNameTB" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="114,158,42,104" Height="30" TextWrapping="Wrap" Width="243" FontSize="18"/>
-        <Label Content="Отчество"  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,161,0,106" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Height="30" FontSize="18" Width="89"/>
-        <Label Content="Взятая книга: " HorizontalAlignment="Left" VerticalAlignment="Center" Margin="24,194,0,68" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Height="30" FontSize="18" Width="350"/>
-
+        <Label Content="Отчество"  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,187,0,132" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Height="30" FontSize="18" Width="104"/>
+        <Label Content="Взятые книги: " HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,222,0,97" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Height="30" FontSize="18" Width="124"/>
+        <TextBox TextWrapping="WrapWithOverflow" x:Name="BooksTB" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,252,10,45" Height="52" Width="400" IsReadOnly="True"/>
     </Grid>
 </Window>

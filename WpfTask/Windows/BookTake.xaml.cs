@@ -26,54 +26,49 @@ namespace WpfTask.Windows
             InitializeComponent();
             currentClient = client;
 
-            //DG.ItemsSource = Database.db.Book.ToList();
+            TakeBookDG.ItemsSource = Database.db.Book.ToList();
 
-            LoadData();
-
-            //var Kavo = (Book)TakeBookDG.SelectedItem;
+            TakeDP.SelectedDate = DateTime.Now;
         }
 
         private void LoadData()
         {
-            var books = Database.db.Book.AsQueryable();
-            {
-                TakeBookDG.ItemsSource = books.Select(s => new
-                {
-                    Id = s.Id,
-                    Name = s.Name,
-                    Author = s.Author
-                }).ToList();
-            }
+            TakeBookDG.ItemsSource = Database.db.Book.ToList();
         }
 
         private void ApplyBtn_Click(object sender, RoutedEventArgs e)
         {
-            if (TakeDP.SelectedDate == null || GiveDP.SelectedDate == null)
+            if (GiveDP.SelectedDate == null)
             {
                 MessageBox.Show("Выберите дату взятия и окончания!", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
             if (TakeBookDG.SelectedItem == null)
             {
-                //MessageBox.Show("Выберите книгу для выдачи!", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
-                //return;
+                MessageBox.Show("Выберите книгу для выдачи!", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
             }
 
-            //TakeBookDG.
+            var date = DateTime.Now.Subtract(GiveDP.SelectedDate.Value);
+
+            if (TakeDP.SelectedDate >= GiveDP.SelectedDate)
+            {
+                MessageBox.Show("Некорректная дата возврата", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+            
+
             Book selectedBook = (Book)TakeBookDG.SelectedItem;
-            //MessageBox.Show(selectedItem.ToString());
 
             BookTakings taking = new BookTakings() {
                 BookId = selectedBook.Id,
-                Book = selectedBook,
                 ClientId = currentClient.Id,
-                Client = currentClient,
                 TakeDate = TakeDP.SelectedDate,
                 GiveDate = GiveDP.SelectedDate
             };
 
             Database.db.BookTakings.Add(taking);
-
+            Database.db.SaveChanges();
             this.DialogResult = true;
         }
     }

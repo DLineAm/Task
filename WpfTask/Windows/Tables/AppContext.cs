@@ -11,6 +11,6 @@ namespace WpfTask.Windows
 
         public DbSet<Client> Client { get; set; }
         public DbSet<Book> Book { get; set; }
-        public DbSet<BookTakings> BookTakings { get; set; }
+        public DbSet<BookTakings> BookTakings { get; set; }        
     }  
 }

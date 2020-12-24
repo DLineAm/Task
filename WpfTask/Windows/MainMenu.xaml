@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfTask.Windows"
         mc:Ignorable="d"
-        Title="Главное меню" Height="232.831" Width="495.128" ResizeMode="NoResize">
+        Title="Главное меню" Height="270.915" Width="495.128" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <Canvas Background="#FF6347" VerticalAlignment="Top" HorizontalAlignment="Stretch" Height="50">
             <Label Content="Учёт библиотеки" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" Width="489" FontSize="18" Foreground="#F5FFFA" Canvas.ZIndex ="2"/>
@@ -13,6 +13,16 @@
         </Canvas>
         <Button Name ="Books" Content="Книги" HorizontalAlignment="Left" Margin="47,103,0,0" VerticalAlignment="Top" Width="146" Height="50" Click="Books_Click"/>
         <Button Name ="Readers" Content="Читатели" HorizontalAlignment="Left" Margin="285,103,0,0" VerticalAlignment="Top" Width="146" Height="50" Click="Readers_Click"/>
+        <TextBlock Name="ReportTB" Margin="5" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+             <Hyperlink NavigateUri="Report.xaml" Click="Hyperlink_Click">Сфоримровать отчет</Hyperlink>
+        </TextBlock>
+        <TextBlock Name="FillTB" Margin="5" VerticalAlignment="Bottom" HorizontalAlignment="Right">
+             <Hyperlink NavigateUri="Report.xaml" Click="FillLink_Click">Заполнить тестовыми данными</Hyperlink>
+        </TextBlock>
+        <TextBlock Name="ClearTB" Margin="5" VerticalAlignment="Bottom" HorizontalAlignment="Center" FontSize="10">
+             <Hyperlink NavigateUri="Report.xaml" Foreground="Red" Click="DeleteLink_Click">Очистить данные</Hyperlink>
+        </TextBlock>
+
 
     </Grid>
 </Window>

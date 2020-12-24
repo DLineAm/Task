@@ -5,14 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfTask.Windows"
         mc:Ignorable="d"
-        Title="BookCreate" Height="288.338" Width="389.812">
+        Title="BookCreate" Height="288.338" Width="389.812" ResizeMode="NoResize">
     <Grid>
-        <Label Name="TitleLb" Content="Добавление читателя" VerticalAlignment="Top" FontSize="22" HorizontalContentAlignment="Center" Height="61"/>
+        <Rectangle Fill="#FF6347" VerticalAlignment="Top" Height="50"/>
+        <Rectangle Fill="Black" VerticalAlignment="Top" Height="1" Margin="0,50,0,0"/>
+        <Label Name="TitleLb" Content="Добавление книги" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="50" FontSize="18" Foreground="#F5FFFA"/>
         <TextBox Name ="NameTB" HorizontalAlignment="Left" Height="30" Margin="74,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="243" FontSize="18"/>
         <Label Content="Имя" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" Height="30" FontSize="18" Width="59"/>
         <TextBox Name ="AuthorTB" HorizontalAlignment="Left" Height="30" Margin="74,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="243" FontSize="18"/>
         <Label Content="Автор" HorizontalAlignment="Left" Margin="10,97,0,0" VerticalAlignment="Top" Height="32" FontSize="18" Width="64"/>
-        <Button Name ="AddBtn" Content="Добавить" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="137" Height="40" Click="AddBtn_Click" HorizontalContentAlignment="Center"/>
+        <Button Name ="AddBtn" Content="Добавить" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Width="137" Height="40" Margin="0,0,0,5" Click="AddBtn_Click" HorizontalContentAlignment="Center"/>
 
     </Grid>
 </Window>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfTask.Windows"
         mc:Ignorable="d"
-        Title="BookTake" Height="427.917" Width="442.895">
+        Title="BookTake" Height="427.917" Width="442.895" ResizeMode="NoResize">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50" MinHeight="50"></RowDefinition>
@@ -18,10 +18,16 @@
         <Label Name="TitleLb" Content="Выдача книги" VerticalAlignment="Top" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" FontSize="18" Foreground="#F5FFFA"/>
 
         <Label Grid.Row="1" Content="Дата выдачи" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,0,0" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Height="30" FontSize="18" Width="129"/>
-        <DatePicker Name="TakeDP" Grid.Row="1" VerticalAlignment="Top" Margin="150,40,85,0" Width="200" Height="30" FontSize="18"/>
+        <DatePicker Name="GiveDP" Grid.Row="1" VerticalAlignment="Top" Margin="150,40,85,0" Width="200" Height="30" FontSize="18"/>
         <Label Grid.Row="1" Content="Дата возврата" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,40,0,0" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Height="30" FontSize="18" Width="129"/>
-        <DatePicker Name="GiveDP" Grid.Row="1" VerticalAlignment="Top" Margin="150,5,85,0" Width="200" Height="30" FontSize="18"/>
-        <DataGrid Name="TakeBookDG" Grid.Row="1" VerticalAlignment="Center" Height="200" Margin="0,65,0,0" ColumnWidth="*"/>
+        <DatePicker Name="TakeDP" Grid.Row="1" IsEnabled="False" VerticalAlignment="Top" Margin="150,5,85,0" Width="200" Height="30" FontSize="18"/>
+        <DataGrid Name="TakeBookDG" Grid.Row="1" VerticalAlignment="Center" Height="200" Margin="0,65,0,0" ColumnWidth="*" ItemsSource="{Binding a}" AutoGenerateColumns="False" IsReadOnly="True">
+        <DataGrid.Columns>
+            <DataGridTextColumn Header="Id" x:Name="Id" Binding="{Binding Path = Id}"></DataGridTextColumn>
+            <DataGridTextColumn Header="Имя" x:Name="Name" Binding="{Binding Path = Name}"></DataGridTextColumn>
+            <DataGridTextColumn Header="Автор" x:Name="Author" Binding="{Binding Path = Author}"></DataGridTextColumn>
+        </DataGrid.Columns>
+        </DataGrid>
 
         <Button Name="ApplyBtn" Grid.Row="2" Content="Принять" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,5" Height="30" Click="ApplyBtn_Click"/>
     </Grid>

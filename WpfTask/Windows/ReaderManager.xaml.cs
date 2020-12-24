@@ -46,9 +46,14 @@ namespace WpfTask.Windows
             {
                 using (ClientContext db = new ClientContext())
                 {
-                    Client cl = new Client { FirstName = rcw.FirstNameTB.Text, Id = 1 };
+                    Client cl = new Client
+                    {
+                        FirstName = rcw.FirstNameTB.Text,
+                        LastName = rcw.LastNameTB.Text,
+                        MiddleName = rcw.MiddleNameTB.Text
+                    };
                     db.Client.Add(cl);
-                    db.SaveChanges();                    
+                    db.SaveChanges();
                     ReaderDG.ItemsSource = db.Client.ToList();
                     ReaderDG.ScrollIntoView(cl);
                 }
@@ -61,29 +66,26 @@ namespace WpfTask.Windows
             try
             {
                 selectedItem = (Client)ReaderDG.SelectedItem;
+                if (selectedItem == null)
+                    throw new Exception();
             }
             catch { return; }
-            
-            if (selectedItem == null)
-                return;
+
             var selectedId = selectedItem.Id;
-            using (ClientContext db = new ClientContext())
+            var selectedReader = Database.db.Client.FirstOrDefault(p => p.Id == selectedId);
+
+            var readerAccWindow = new ReaderAccounting(selectedReader);
+
+            if (readerAccWindow.ShowDialog() == true)
             {
-                var selectedReader = db.Client.FirstOrDefault(p => p.Id == selectedId);
-
-                var readerCreateWindow = new ReaderCreate(selectedReader) { };
-                var readerAccWindow = new ReaderAccounting(selectedReader);
-
-                if (readerAccWindow.ShowDialog() == true)
-                {
-                    selectedReader.FirstName = readerAccWindow.FirstNameTB.Text;
-                    selectedReader.MiddleName = readerAccWindow.MiddleNameTB.Text;
-                    selectedReader.LastName = readerAccWindow.LastNameTB.Text;
-                    db.SaveChanges();
-                    ReaderDG.ItemsSource = db.Client.ToList();
-                }
-
+                selectedReader.FirstName = readerAccWindow.FirstNameTB.Text;
+                selectedReader.MiddleName = readerAccWindow.MiddleNameTB.Text;
+                selectedReader.LastName = readerAccWindow.LastNameTB.Text;
+                Database.db.SaveChanges();
+                ReaderDG.ItemsSource = Database.db.Client.ToList();
             }
+
+
 
         }
 
