@@ -715,7 +715,6 @@ C:\Users\Andrey\Downloads\GItRepos\WpfTask\obj\Debug\Windows\ReaderAccounting.g.
 C:\Users\Andrey\Downloads\GItRepos\WpfTask\obj\Debug\Windows\ReaderAccounting.baml
 C:\Users\Andrey\Downloads\GItRepos\WpfTask\obj\Debug\Windows\BookTake.g.cs
 C:\Users\Andrey\Downloads\GItRepos\WpfTask\obj\Debug\Windows\BookTake.baml
-C:\Users\Andrey\Downloads\GItRepos\WpfTask\obj\Debug\WpfTask.Migrations._1.resources
 D:\WpfTask\obj\Debug\Windows\BookTake.g.cs
 D:\WpfTask\obj\Debug\Windows\ReaderAccounting.g.cs
 D:\WpfTask\obj\Debug\Windows\BookTake.baml
@@ -731,3 +730,12 @@ D:\WpfTask\bin\Debug\WpfTask.exe.manifest
 D:\WpfTask\bin\Debug\WpfTask.application
 D:\WpfTask\obj\Debug\WpfTask.exe.manifest
 D:\WpfTask\obj\Debug\WpfTask.application
+C:\Users\Andrey\Downloads\GItRepos\WpfTask\bin\Debug\WpfTask.exe.manifest
+C:\Users\Andrey\Downloads\GItRepos\WpfTask\bin\Debug\WpfTask.application
+C:\Users\Andrey\Downloads\GItRepos\WpfTask\obj\Debug\Windows\BookDelete.g.cs
+C:\Users\Andrey\Downloads\GItRepos\WpfTask\obj\Debug\Windows\Report.g.cs
+C:\Users\Andrey\Downloads\GItRepos\WpfTask\obj\Debug\Windows\BookDelete.baml
+C:\Users\Andrey\Downloads\GItRepos\WpfTask\obj\Debug\Windows\Report.baml
+C:\Users\Andrey\Downloads\GItRepos\WpfTask\obj\Debug\WpfTask.exe.manifest
+C:\Users\Andrey\Downloads\GItRepos\WpfTask\obj\Debug\WpfTask.application
+C:\Users\Andrey\Downloads\GItRepos\WpfTask\obj\Debug\WpfTask.Migrations._1.resources

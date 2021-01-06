@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\WpfTask\obj\Debug\
+C:\Users\Andrey\Downloads\GItRepos\WpfTask\obj\Debug\
 WpfTask
 none
 false
 DEBUG;TRACE
-D:\WpfTask\App.xaml
+C:\Users\Andrey\Downloads\GItRepos\WpfTask\App.xaml
 9-1240048549
 
-26-149269940
-1451863220326
+22-146754723
+145-265177
 Windows\BookCreate.xaml;Windows\BookDelete.xaml;Windows\BookManager.xaml;Windows\BookTake.xaml;Windows\MainMenu.xaml;Windows\ReaderAccounting.xaml;Windows\ReaderCreate.xaml;Windows\ReaderManager.xaml;Windows\Report.xaml;
 
-False
+True
 
