@@ -65,6 +65,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ViewModel\DisplayRootRegistry.cs" />
     <Compile Include="ViewModel\ReaderChangeVM.cs" />
     <Compile Include="View\ReaderChange.xaml.cs">
       <DependentUpon>ReaderChange.xaml</DependentUpon>

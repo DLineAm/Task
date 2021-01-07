@@ -11,6 +11,13 @@
         <local:BiblioVM/>
     </Window.DataContext>
     
+    <Window.Resources>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1" x:Key="Rectangle">
+            <GradientStop Color="Coral" Offset="0"/>
+            <GradientStop Color="White" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Resources>
+    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"></RowDefinition>
@@ -18,14 +25,7 @@
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
 
-        <Rectangle Grid.Row="0" Height="50">
-            <Rectangle.Fill>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                    <GradientStop Color="Coral" Offset="0"/>
-                    <GradientStop Color="White" Offset="1"/>
-                </LinearGradientBrush>
-            </Rectangle.Fill>
-        </Rectangle>
+        <Rectangle Grid.Row="0" Height="50" Fill="{StaticResource Rectangle}"/>
         <TextBlock Grid.Row="0" Text="Biblivo" TextAlignment="Center" VerticalAlignment="Center" FontFamily="Vivaldi" FontSize="22">
             <TextBlock.Foreground>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">

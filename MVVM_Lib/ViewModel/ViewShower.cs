@@ -12,7 +12,7 @@ namespace MVVM_Lib.ViewModel
             {
                 Window w = new Window() { SizeToContent = SizeToContent.WidthAndHeight, ResizeMode = ResizeMode.NoResize, Title = "DialogWindow"};                
                 StackPanel mainSp = new StackPanel() { Orientation = Orientation.Vertical };
-                StackPanel sp = new StackPanel();
+                StackPanel sp = new StackPanel();               
                 sp.Children.Add(view);
                 Button applyBtn = new Button() { Content = "Принять", Margin = new Thickness(10) };
                 applyBtn.Click += (s, e) => { if (isModal) w.DialogResult = true; else w.Close(); };
