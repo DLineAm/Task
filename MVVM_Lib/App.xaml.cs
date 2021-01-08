@@ -21,7 +21,7 @@ namespace MVVM_Lib
         {
             base.OnStartup(e);
             await RunProgramLogic();
-            //Shutdown();
+            Shutdown();
         }
 
         private async Task RunProgramLogic()
@@ -32,12 +32,13 @@ namespace MVVM_Lib
                 displayRoot.ShowView(vm);
                 await Task.Delay(TimeSpan.FromSeconds(2));
 
-                //while (true)
-                //{
-                //    if (vm.DialogResult != null)
-                //        break;
-                //}
-                //displayRoot.HideView(vm);
+                while (true)
+                {
+                    await Task.Delay(TimeSpan.FromSeconds(2));
+                    if (vm.DialogResult != null)
+                        break;
+                }
+                displayRoot.HideView(vm);
                 break;
             }
         }

@@ -7,15 +7,17 @@
         xmlns:local="clr-namespace:MVVM_Lib"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Window.CommandBindings>
-        <CommandBinding>
-        </CommandBinding>
-    </Window.CommandBindings>
-
+    
     <Window.DataContext>
         <local:BiblioVM/>
     </Window.DataContext>
-    
+
+    <b:Interaction.Triggers>
+        <b:EventTrigger EventName="Closing">
+            <b:InvokeCommandAction Command="{Binding CloseWindowCommand}"/>
+        </b:EventTrigger>
+    </b:Interaction.Triggers>
+   
     <Window.Resources>
         <LinearGradientBrush StartPoint="0,0" EndPoint="0,1" x:Key="Rectangle">
             <GradientStop Color="Coral" Offset="0"/>

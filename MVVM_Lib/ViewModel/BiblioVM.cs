@@ -7,7 +7,6 @@ using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
-using System.Windows;
 using System.Windows.Input;
 
 namespace MVVM_Lib
@@ -24,6 +23,22 @@ namespace MVVM_Lib
         public enum WindowMode
         {
             Add, Change
+        }
+
+        private ModelCommand closeWindowCommand;
+
+        public ICommand CloseWindowCommand
+        {
+            get
+            {
+                return closeWindowCommand ??
+                    (closeWindowCommand = new ModelCommand(param => this.CloseWindow()));
+            }
+        }
+
+        private void CloseWindow()
+        {
+            this.DialogResult = true;
         }
 
         private ModelCommand addReaderCommand;
@@ -95,8 +110,7 @@ namespace MVVM_Lib
 
         private void FillReaders()
         {
-            var f = (from a in db.Readers select a).ToList();
-            this.Readers = f;
+            Readers = db.Readers.ToList();
         }
 
         private string _filterText;
@@ -104,8 +118,20 @@ namespace MVVM_Lib
             set 
             {
                 _filterText = value;
+                SearchReaders();
                 NotifyPropertyChanged();
             }
+        }
+
+        private void SearchReaders()
+        {
+            if (string.IsNullOrWhiteSpace(FilterText))
+            {
+                Readers = db.Readers.ToList();
+            }
+            Readers = Readers.FindAll(p => p.FirstName.Contains(FilterText) || p.LastName.Contains(FilterText) || p.MiddleName.Contains(FilterText));
+            if (Readers.Count == 0)
+                Readers = db.Readers.ToList();
         }
 
 
