@@ -70,6 +70,7 @@ namespace MVVM_Lib.ViewModel
 
         public async Task ShowModalView(object vm)
         {
+            
             var window = CreateWindowInstanceWithVM(vm);
             window.WindowStartupLocation = WindowStartupLocation.CenterScreen;
             await window.Dispatcher.InvokeAsync(() => window.ShowDialog());

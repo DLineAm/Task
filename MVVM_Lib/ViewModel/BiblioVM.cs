@@ -14,9 +14,29 @@ namespace MVVM_Lib
 {
     class BiblioVM : INotifyPropertyChanged
     {
+
+        public bool? DialogResult = null;
+        
         BiblioEntities db = new BiblioEntities();
 
         DisplayRootRegistry displayRoot = new DisplayRootRegistry();
+
+        public enum WindowMode
+        {
+            Add, Change
+        }
+
+        private ModelCommand addReaderCommand;
+
+        public ICommand AddReaderCommand
+        {
+            get
+            {
+                return addReaderCommand ??
+                    (addReaderCommand = new ModelCommand(param => this.StartWindow(WindowMode.Add)));
+            }
+        }
+
 
         private ModelCommand changeReaderCommand;
         public ICommand ShowReaderCommand
@@ -24,7 +44,7 @@ namespace MVVM_Lib
             get
             {
                 return changeReaderCommand ??
-                    (changeReaderCommand = new ModelCommand(param => this.StartWindow()));
+                    (changeReaderCommand = new ModelCommand(param => this.StartWindow(WindowMode.Change)));
             }
         }
 
@@ -97,31 +117,41 @@ namespace MVVM_Lib
             FillReaders();
         }
 
-        protected async void StartWindow()
+        protected async void StartWindow(WindowMode wm)
         {
             try
             {
-                await RunProgramLogic();
+                await RunProgramLogic(wm);
             }
             catch
             { }
                        
         }
-
-        private async Task RunProgramLogic()
+        
+        private async Task RunProgramLogic(WindowMode wm)
         {
             while (true)
             {
-                var vm = new ReaderChangeVM(SelectedReader);
+                var vm = new ReaderChangeVM(wm == WindowMode.Change ? SelectedReader : null,
+                    wm == WindowMode.Change ? "Изменение читалеля" : "Добавление читателя");
                 await displayRoot.ShowModalView(vm);
 
                 await Task.Delay(TimeSpan.FromSeconds(2));
                 if (vm.DialogResult == true)
                 {
-                    SelectedReader = vm.Reader;
+                    switch (wm)
+                    {
+                        case WindowMode.Add:
+                            db.Readers.Add(vm.Reader);
+                            break;
+                        case WindowMode.Change:
+                            SelectedReader = vm.Reader;
+                            break;
+                    }                    
                     await db.SaveChangesAsync();
                     FillReaders();
                 }
+                
                 displayRoot.HideView(vm);
                 break;
             }

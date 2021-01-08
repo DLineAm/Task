@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MVVM_Lib.View"
+        xmlns:b="http://schemas.microsoft.com/xaml/behaviors"
         mc:Ignorable="d"
          Height="254.5" Width="274" ResizeMode="NoResize">
     <Grid>
@@ -21,7 +22,7 @@
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
-        <TextBlock Grid.Row="0" Text="Biblivo" TextAlignment="Center" VerticalAlignment="Center" FontFamily="Vivaldi" FontSize="22">
+        <TextBlock Grid.Row="0" Text="{Binding Title}" TextAlignment="Center" VerticalAlignment="Center" FontFamily="Vivaldi" FontSize="22">
             <TextBlock.Foreground>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
                     <GradientStop Color="White" Offset="0"/>
@@ -47,8 +48,22 @@
         </StackPanel>
 
         <StackPanel Grid.Row="2" Orientation="Horizontal">
-            <Button Margin="5" Command="{Binding ApplyCommand}">Принять</Button>
-            <Button Margin="5">Отмена</Button>
+            <Button Margin="5" Command="{Binding ApplyCommand}">Принять
+                <b:Interaction.Triggers>
+                    <b:EventTrigger EventName="Click">
+                        <b:CallMethodAction MethodName="Close"
+                                            TargetObject="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=Window}}"/>
+                    </b:EventTrigger>
+                </b:Interaction.Triggers>
+            </Button>
+            <Button Margin="5">Отмена
+                <b:Interaction.Triggers>
+                    <b:EventTrigger EventName="Click">
+                        <b:CallMethodAction MethodName="Close"
+                                            TargetObject="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=Window}}"/>
+                    </b:EventTrigger>
+                </b:Interaction.Triggers>
+            </Button>
         </StackPanel>
     </Grid>
 </Window>

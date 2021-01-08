@@ -6,16 +6,33 @@ namespace MVVM_Lib
 {
     class ReaderChangeVM
     {
-        public bool? DialogResult = false;
-        public ReaderChangeVM(Reader r)
-        {
-            Reader = r;
-            FirstName = Reader.FirstName;
-            LastName = Reader.LastName;
-            MiddleName = Reader.MiddleName;
+        private string title;
 
+        public string Title
+        {
+            get { return title; }
+            set { title = value; }
         }
-        private BiblioEntities db = new BiblioEntities();
+
+        public bool? DialogResult = false;
+        public ReaderChangeVM(string title)
+        {
+            Title = title;
+        }
+        public ReaderChangeVM(Reader r, string title)
+        {
+            Reader = new Reader();
+            if (r != null)
+            {
+                Reader = r;
+                FirstName = Reader.FirstName;
+                LastName = Reader.LastName;
+                MiddleName = Reader.MiddleName;
+            }
+
+            Title = title;
+        }
+
         private ModelCommand applyCommand;
         public ICommand ApplyCommand 
         {
