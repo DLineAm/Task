@@ -13,6 +13,7 @@ namespace MVVM_Lib
 {
     class BiblioVM : INotifyPropertyChanged
     {
+        
 
         public bool? DialogResult = null;
         
@@ -71,12 +72,10 @@ namespace MVVM_Lib
             }
         }
 
+       
         public BiblioVM()
         {
-
-            //displayRoot.RegisterWindowType<BiblioVM, MainWindow>();
             displayRoot.RegisterWindowType<ReaderChangeVM, ReaderChange>();
-
 
             FillReaders();
 
@@ -108,11 +107,6 @@ namespace MVVM_Lib
             }
         }        
 
-        private void FillReaders()
-        {
-            Readers = db.Readers.ToList();
-        }
-
         private string _filterText;
         public string FilterText { get => _filterText;
             set 
@@ -121,6 +115,11 @@ namespace MVVM_Lib
                 SearchReaders();
                 NotifyPropertyChanged();
             }
+        }
+
+        private void FillReaders()
+        {
+            Readers = db.Readers.ToList();
         }
 
         private void SearchReaders()
@@ -183,7 +182,8 @@ namespace MVVM_Lib
             }
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler PropertyChanged; 
+
         private void NotifyPropertyChanged([CallerMemberName] String propertyName = "")
         {
             if (PropertyChanged != null)

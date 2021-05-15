@@ -1,0 +1,400 @@
+D:\VISUALProjects\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.exe
+D:\VISUALProjects\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.deps.json
+D:\VISUALProjects\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.runtimeconfig.json
+D:\VISUALProjects\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.runtimeconfig.dev.json
+D:\VISUALProjects\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.dll
+D:\VISUALProjects\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.pdb
+D:\VISUALProjects\TravelAgency\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Behaviors.dll
+D:\VISUALProjects\TravelAgency\bin\Debug\netcoreapp3.1\Prism.dll
+D:\VISUALProjects\TravelAgency\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll
+D:\VISUALProjects\TravelAgency\bin\Debug\netcoreapp3.1\Prism.Wpf.dll
+D:\VISUALProjects\TravelAgency\bin\Debug\netcoreapp3.1\Unity.Abstractions.dll
+D:\VISUALProjects\TravelAgency\bin\Debug\netcoreapp3.1\Unity.Container.dll
+D:\VISUALProjects\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csprojAssemblyReference.cache
+D:\VISUALProjects\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainWindow.g.cs
+D:\VISUALProjects\TravelAgency\obj\Debug\netcoreapp3.1\App.g.cs
+D:\VISUALProjects\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency_MarkupCompile.cache
+D:\VISUALProjects\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency_MarkupCompile.lref
+D:\VISUALProjects\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainWindow.baml
+D:\VISUALProjects\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.g.resources
+D:\VISUALProjects\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.AssemblyInfoInputs.cache
+D:\VISUALProjects\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.AssemblyInfo.cs
+D:\VISUALProjects\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csproj.CoreCompileInputs.cache
+D:\VISUALProjects\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csproj.CopyComplete
+D:\VISUALProjects\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.dll
+D:\VISUALProjects\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.pdb
+D:\VISUALProjects\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.genruntimeconfig.cache
+D:\VISUALProjects\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainControl.baml
+D:\VISUALProjects\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainControl.g.cs
+D:\VISUALProjects\TravelAgency\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+D:\VISUALProjects\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelControl.g.cs
+D:\VISUALProjects\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelControl.baml
+E:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.exe
+E:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.deps.json
+E:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.runtimeconfig.json
+E:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.runtimeconfig.dev.json
+E:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.dll
+E:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.pdb
+E:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Behaviors.dll
+E:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\Prism.dll
+E:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll
+E:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\Prism.Wpf.dll
+E:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\Unity.Abstractions.dll
+E:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\Unity.Container.dll
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csprojAssemblyReference.cache
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelControl.g.cs
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainControl.g.cs
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainWindow.g.cs
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\App.g.cs
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency_MarkupCompile.cache
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency_MarkupCompile.lref
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelControl.baml
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainControl.baml
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainWindow.baml
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.g.resources
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.AssemblyInfoInputs.cache
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.AssemblyInfo.cs
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csproj.CoreCompileInputs.cache
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csproj.CopyComplete
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.dll
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.pdb
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.genruntimeconfig.cache
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Resources\Dictionary1.baml
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\App.baml
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\TitleBar.g.cs
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\TitleBar.baml
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.exe
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.deps.json
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.runtimeconfig.json
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.runtimeconfig.dev.json
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.dll
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.pdb
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Behaviors.dll
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\Prism.dll
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\Prism.Wpf.dll
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\Unity.Abstractions.dll
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\Unity.Container.dll
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csprojAssemblyReference.cache
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainControl.baml
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelControl.g.cs
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainControl.g.cs
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainWindow.g.cs
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\TitleBar.g.cs
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\App.g.cs
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency_MarkupCompile.cache
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency_MarkupCompile.lref
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\App.baml
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Resources\Dictionary1.baml
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelControl.baml
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainWindow.baml
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\TitleBar.baml
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.g.resources
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.AssemblyInfoInputs.cache
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.AssemblyInfo.cs
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csproj.CoreCompileInputs.cache
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csproj.CopyComplete
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.dll
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.pdb
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.genruntimeconfig.cache
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelDetails.g.cs
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelDetails.baml
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientsControl.g.cs
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientsControl.baml
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientDetails.g.cs
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientDetails.baml
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Resources\DarkTheme.baml
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Resources\LightTheme.baml
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientDetails.g.cs
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientsControl.g.cs
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelDetails.g.cs
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Resources\DarkTheme.baml
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Resources\LightTheme.baml
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientDetails.baml
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientsControl.baml
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelDetails.baml
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\VouchersControl.g.cs
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\VouchersControl.baml
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Resources\BackgroundComboBox.baml
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\VouchersControl.g.cs
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Resources\BackgroundComboBox.baml
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\VouchersControl.baml
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\VoucherDetails.g.cs
+D:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\VoucherDetails.baml
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\VoucherDetails.g.cs
+E:\CSharp\MVVM\TravelAgency\obj\Debug\netcoreapp3.1\Views\VoucherDetails.baml
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\PdfSharp.Charting.dll
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\PdfSharp.dll
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\de\PdfSharp.Charting.resources.dll
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\de\PdfSharp.resources.dll
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CSharp\MVVM\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.exe
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.deps.json
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.runtimeconfig.json
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.runtimeconfig.dev.json
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.pdb
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Behaviors.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\PdfSharp.Charting.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\PdfSharp.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\Prism.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\Prism.Wpf.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\Unity.Abstractions.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\Unity.Container.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\de\PdfSharp.Charting.resources.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\de\PdfSharp.resources.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csprojAssemblyReference.cache
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Resources\Dictionary1.baml
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainControl.baml
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientDetails.g.cs
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientsControl.g.cs
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelControl.g.cs
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelDetails.g.cs
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainControl.g.cs
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainWindow.g.cs
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Views\TitleBar.g.cs
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Views\VoucherDetails.g.cs
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Views\VouchersControl.g.cs
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\App.g.cs
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency_MarkupCompile.cache
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency_MarkupCompile.lref
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\App.baml
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Resources\BackgroundComboBox.baml
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Resources\DarkTheme.baml
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Resources\LightTheme.baml
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientDetails.baml
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientsControl.baml
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelControl.baml
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelDetails.baml
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainWindow.baml
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Views\TitleBar.baml
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Views\VoucherDetails.baml
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\Views\VouchersControl.baml
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.g.resources
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.AssemblyInfoInputs.cache
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.AssemblyInfo.cs
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csproj.CoreCompileInputs.cache
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csproj.CopyComplete
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.dll
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.pdb
+\\SPEK\PrePress\813-прс\Студенты\Евсютин\Мишаня сюда\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.genruntimeconfig.cache
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.exe
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.deps.json
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.runtimeconfig.json
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.runtimeconfig.dev.json
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.pdb
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Behaviors.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\PdfSharp.Charting.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\PdfSharp.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\Prism.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\Prism.Wpf.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\Unity.Abstractions.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\Unity.Container.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\de\PdfSharp.Charting.resources.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\de\PdfSharp.resources.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csprojAssemblyReference.cache
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Resources\Dictionary1.baml
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainControl.baml
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientDetails.g.cs
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientsControl.g.cs
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelControl.g.cs
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelDetails.g.cs
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainControl.g.cs
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainWindow.g.cs
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\TitleBar.g.cs
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\VoucherDetails.g.cs
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\VouchersControl.g.cs
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\App.g.cs
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency_MarkupCompile.cache
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency_MarkupCompile.lref
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\App.baml
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Resources\BackgroundComboBox.baml
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Resources\DarkTheme.baml
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Resources\LightTheme.baml
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientDetails.baml
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientsControl.baml
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelControl.baml
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelDetails.baml
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainWindow.baml
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\TitleBar.baml
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\VoucherDetails.baml
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\VouchersControl.baml
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.g.resources
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.AssemblyInfoInputs.cache
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.AssemblyInfo.cs
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csproj.CoreCompileInputs.cache
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csproj.CopyComplete
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.dll
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.pdb
+E:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.genruntimeconfig.cache
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csprojAssemblyReference.cache
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Resources\Dictionary1.baml
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainControl.baml
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientDetails.g.cs
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientsControl.g.cs
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelControl.g.cs
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelDetails.g.cs
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainControl.g.cs
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainWindow.g.cs
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\TitleBar.g.cs
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\VoucherDetails.g.cs
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\VouchersControl.g.cs
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\App.g.cs
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency_MarkupCompile.cache
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency_MarkupCompile.lref
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.pdb
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.exe
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.deps.json
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.runtimeconfig.json
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.runtimeconfig.dev.json
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.pdb
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Behaviors.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\PdfSharp.Charting.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\PdfSharp.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\Prism.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\Prism.Wpf.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\Unity.Abstractions.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\Unity.Container.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\de\PdfSharp.Charting.resources.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\de\PdfSharp.resources.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\App.baml
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Resources\BackgroundComboBox.baml
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Resources\DarkTheme.baml
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Resources\LightTheme.baml
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientDetails.baml
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientsControl.baml
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelControl.baml
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelDetails.baml
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainWindow.baml
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\TitleBar.baml
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\VoucherDetails.baml
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\Views\VouchersControl.baml
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.g.resources
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.AssemblyInfoInputs.cache
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.AssemblyInfo.cs
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csproj.CoreCompileInputs.cache
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csproj.CopyComplete
+D:\CSharp\MVVM\travelAge\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.genruntimeconfig.cache
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.exe
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.deps.json
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.runtimeconfig.json
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.runtimeconfig.dev.json
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\TravelAgency.pdb
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Behaviors.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\PdfSharp.Charting.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\PdfSharp.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\Prism.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\Prism.Unity.Wpf.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\Prism.Wpf.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\Unity.Abstractions.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\Unity.Container.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\de\PdfSharp.Charting.resources.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\de\PdfSharp.resources.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csprojAssemblyReference.cache
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Resources\Dictionary1.baml
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainControl.baml
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientDetails.g.cs
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientsControl.g.cs
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelControl.g.cs
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelDetails.g.cs
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainControl.g.cs
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainWindow.g.cs
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Views\TitleBar.g.cs
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Views\VoucherDetails.g.cs
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Views\VouchersControl.g.cs
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency_MarkupCompile.cache
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency_MarkupCompile.lref
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Resources\BackgroundComboBox.baml
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Resources\DarkTheme.baml
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Resources\LightTheme.baml
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientDetails.baml
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Views\ClientsControl.baml
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelControl.baml
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Views\HotelDetails.baml
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Views\MainWindow.baml
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Views\TitleBar.baml
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Views\VoucherDetails.baml
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\Views\VouchersControl.baml
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.g.resources
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.AssemblyInfoInputs.cache
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.AssemblyInfo.cs
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.csproj.CopyComplete
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.dll
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.pdb
+C:\Users\Andrey\Downloads\GItRepos\TravelAgency\obj\Debug\netcoreapp3.1\TravelAgency.genruntimeconfig.cache

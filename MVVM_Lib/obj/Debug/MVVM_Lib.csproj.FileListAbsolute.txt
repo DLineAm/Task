@@ -48,3 +48,11 @@ C:\Users\Andrey\Downloads\GItRepos\MVVM_Lib\obj\Debug\App.baml
 C:\Users\Andrey\Downloads\GItRepos\MVVM_Lib\bin\Debug\Microsoft.Xaml.Behaviors.dll
 C:\Users\Andrey\Downloads\GItRepos\MVVM_Lib\bin\Debug\Microsoft.Xaml.Behaviors.pdb
 C:\Users\Andrey\Downloads\GItRepos\MVVM_Lib\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Andrey\Downloads\GItRepos\MVVM_Lib\bin\Debug\Prism.dll
+C:\Users\Andrey\Downloads\GItRepos\MVVM_Lib\bin\Debug\Prism.Wpf.dll
+C:\Users\Andrey\Downloads\GItRepos\MVVM_Lib\bin\Debug\System.ValueTuple.dll
+C:\Users\Andrey\Downloads\GItRepos\MVVM_Lib\bin\Debug\Prism.pdb
+C:\Users\Andrey\Downloads\GItRepos\MVVM_Lib\bin\Debug\Prism.xml
+C:\Users\Andrey\Downloads\GItRepos\MVVM_Lib\bin\Debug\Prism.Wpf.pdb
+C:\Users\Andrey\Downloads\GItRepos\MVVM_Lib\bin\Debug\Prism.Wpf.xml
+C:\Users\Andrey\Downloads\GItRepos\MVVM_Lib\bin\Debug\System.ValueTuple.xml
